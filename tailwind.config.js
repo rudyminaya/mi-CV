@@ -6,7 +6,8 @@ module.exports = {
             colors: {
                 principal: '#0DA8FF',
                 blanco: '#FFFFFF',
-                secundario: '#000117'
+                secundario: '#000117',
+                menuboton: '#363636',
             }
         },
 

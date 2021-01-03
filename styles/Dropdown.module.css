@@ -1,0 +1,23 @@
+.items{
+    @apply my-10 text-blanco text-4xl font-bold text-center block
+}
+
+.cerrar{
+    @apply bg-menuboton p-3 text-blanco text-2xl rounded-full absolute top-0 right-0 mr-10 mt-5
+}
+
+.checkbtn{
+    @apply bg-menuboton p-3 text-blanco text-2xl rounded-full absolute top-0 right-0 mr-10 mt-5 cursor-pointer
+}
+
+.contenedor{
+    @apply fixed bg-principal h-screen w-screen top-0 -left-full transition-all duration-500
+}
+
+#check{
+    @apply hidden;
+}
+
+#barra:checked ~ ul{
+@apply left-0
+}
