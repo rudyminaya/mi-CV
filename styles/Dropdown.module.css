@@ -3,21 +3,13 @@
 }
 
 .cerrar{
-    @apply bg-menuboton p-3 text-blanco text-2xl rounded-full absolute top-0 right-0 mr-10 mt-5
+    @apply bg-menuboton p-3 text-blanco text-2xl rounded-full absolute top-0 right-0 mr-10 mt-5 
 }
 
 .checkbtn{
-    @apply bg-menuboton p-3 text-blanco text-2xl rounded-full absolute top-0 right-0 mr-10 mt-5 cursor-pointer
+    @apply bg-menuboton p-3 text-blanco text-2xl rounded-full absolute top-0 right-0 mr-10 mt-5 cursor-pointer z-10
 }
 
-.contenedor{
-    @apply fixed bg-principal h-screen w-screen top-0 -left-full transition-all duration-500
-}
-
-#check{
-    @apply hidden;
-}
-
-#barra:checked ~ ul{
-@apply left-0
+.listaNav{
+    @apply fixed bg-principal h-screen w-screen top-0 -left-full transition-all duration-500 pt-32
 }

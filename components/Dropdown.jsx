@@ -6,15 +6,30 @@ import estilos from '../styles/Dropdown.module.css';
 const Dropdown = () => {
     return (
         <div>
-            {/* <button className={estilos.cerrar}>
-                <AiOutlineClose></AiOutlineClose>
-            </button> */}
+            <style jsx>
+                {
+                    `
+                    #check{
+                        display:none;
+                    }
+
+                    #check:checked ~ ul{
+                        left:0;
+                    }
+                `
+                }
+            </style>
+
             <nav>
-                <input type="checkbox" id={estilos.check} />
+                <input type="checkbox" id="check" />
                 <label for="check" className={estilos.checkbtn}>
                     <FaBars></FaBars>
                 </label>
-                <ul className={estilos.contenedor}>
+                {/*  <input type="checkbox" id="close" />
+                <label className={estilos.cerrar}>
+                    <AiOutlineClose></AiOutlineClose>
+                </label> */}
+                <ul className={estilos.listaNav}>
                     <li className={estilos.items}>INICIO</li>
                     <li className={estilos.items}>ACERCA DE MÍ</li>
                     <li className={estilos.items}>PORTAFOLIO</li>

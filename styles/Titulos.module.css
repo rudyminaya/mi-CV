@@ -1,8 +1,8 @@
 
 .textoEstatico{
-    @apply text-2xl text-blanco font-bold;
+    @apply text-2xl text-blanco font-bold
 }
 
 .textoAnimado{
-    @apply font-bold text-2xl text-principal;
+    @apply font-bold text-2xl text-principal
 }
