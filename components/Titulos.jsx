@@ -1,8 +1,9 @@
 import React from 'react';
+import estilos from '../styles/Titulos.module.css'
 const Titulo = (props) => {
     return (
-        <div>
-            <h1>{props.textoEstatico}</h1><h1>{props.textoAnimado}</h1>
+        <div className="flex mx-auto justify-center">
+            <h1 className={estilos.textoEstatico}>{props.textoEstatico}</h1><h1 className={estilos.textoAnimado}>{props.textoAnimado}</h1>
         </div>
     )
 }

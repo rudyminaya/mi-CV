@@ -1,7 +1,8 @@
 import React from 'react'
 import { BsBriefcaseFill, BsFillPersonFill } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
-
+import PropTypes from 'prop-types';
+import estilos from '../styles/Button.module.css'
 
 
 const Button = (props) => {
@@ -40,13 +41,17 @@ const Button = (props) => {
     }
 
     return (
-        <button className={`${color} ${fondo} ${borde} flex flex-nowrap items-center border rounded-full py-4 px-8`} >
+        <button className={`${color} ${fondo} ${borde} ${estilos.estilosGenerales}`} >
 
-            <span className="mr-4">{icono}</span>{texto}
+            <span className="mr-1">{icono}</span>{texto}
         </button>
     )
 
 
+}
+
+Button.propTypes = {
+    variante: PropTypes.oneOf(['aboutMe', 'portafolio', 'enviar'])
 }
 
 export default Button;
