@@ -1,3 +1,5 @@
 .estilosGenerales{
     @apply flex flex-nowrap items-center border rounded-full py-2 justify-center w-5/12 text-sm font-bold;
+    @apply lg:mr-5 lg:py-3 lg:w-3/12 mt-3;
+    @apply hover:shadow-neonCeleste duration-300
 }
