@@ -4,7 +4,7 @@ const Titulo = (props) => {
     return (
         <div className="flex mx-auto justify-center lg:justify-start">
 
-            <h1 className={estilos.textoEstatico}>{props.textoEstatico}</h1><h1 className={estilos.textoAnimado}>{props.textoAnimado}</h1>
+            <h1 className={estilos.textoEstatico}>{props.textoEstatico}</h1><h1 data-text={props.textoAnimado} className={estilos.textoAnimado}>{props.textoAnimado}</h1>
         </div>
     )
 }

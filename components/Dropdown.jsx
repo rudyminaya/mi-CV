@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import estilos from '../styles/Dropdown.module.css';
@@ -25,10 +26,6 @@ const Dropdown = () => {
                 <label for="check" className={estilos.checkbtn}>
                     <FaBars></FaBars>
                 </label>
-                {/*  <input type="checkbox" id="close" />
-                <label className={estilos.cerrar}>
-                    <AiOutlineClose></AiOutlineClose>
-                </label> */}
                 <ul className={estilos.listaNav}>
                     <li className={estilos.items}>INICIO</li>
                     <li className={estilos.items}>ACERCA DE MÍ</li>

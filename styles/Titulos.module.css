@@ -1,9 +1,32 @@
 
 .textoEstatico{
-    @apply text-2xl lg:text-6xl lg:mb-8 lg:mt-3 text-blanco font-bold
+    @apply text-2xl lg:text-6xl lg:mb-8 lg:mt-3 text-blanco font-bold relative
 }
 
 .textoAnimado{
-    @apply font-bold text-2xl lg:text-6xl lg:mt-3 lg:mb-8 text-principal space-x-4 flex
+    @apply font-bold text-2xl lg:text-6xl lg:mt-3 lg:mb-8 text-transparent space-x-4 flex relative
     
+}
+
+.textoAnimado::before{
+    content: attr(data-text);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 1%;
+    height: 100%;
+    color: #0DA8FF;
+    border-right: 2px solid #0DA8FF;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+
+}
+
+@keyframes animate{
+    0%, 10%, 100%{
+        width:0;
+    }
+    70%, 90%{
+    width: 100%;
+    }
 }

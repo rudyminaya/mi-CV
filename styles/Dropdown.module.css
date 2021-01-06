@@ -1,5 +1,5 @@
 .items{
-    @apply my-10 text-blanco text-4xl font-bold text-center block
+    @apply my-10 text-blanco text-4xl font-bold text-center block cursor-pointer
 }
 
 .cerrar{
@@ -7,9 +7,9 @@
 }
 
 .checkbtn{
-    @apply bg-menuboton p-3 text-blanco text-2xl rounded-full absolute top-0 right-0 mr-10 mt-5 cursor-pointer z-10
+    @apply bg-menuboton p-3 text-blanco text-2xl rounded-full absolute top-0 right-0 mr-10 mt-5 cursor-pointer z-20
 }
 
 .listaNav{
-    @apply fixed bg-principal h-screen w-screen top-0 -left-full transition-all duration-500 pt-32
+    @apply fixed bg-principal h-screen w-screen top-0 -left-full transition-all duration-500 pt-32 z-10
 }
