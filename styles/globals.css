@@ -18,3 +18,16 @@ a {
 * {
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Tungsten';
+    src: url(../fonts/tungsten.woff);
+}
+@font-face {
+    font-family: 'DIN next LT W4';
+    src: url(../fonts/DIN-next-LT-W4.woff);
+}
+@font-face {
+    font-family: 'DIN next W1G';
+    src: url(../fonts/DIN-next-W1G.otf);
+}

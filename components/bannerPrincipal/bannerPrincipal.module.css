@@ -1,0 +1,4 @@
+.contenedor {
+    height: 650px;
+    @apply bg-acero relative overflow-hidden;
+}

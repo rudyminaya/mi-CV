@@ -1,0 +1,4 @@
+.contenedor {
+    grid-template-columns: 10% 90%;
+    @apply grid w-36 mx-auto mt-10;
+}
