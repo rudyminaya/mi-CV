@@ -1,0 +1,57 @@
+.item {
+    @apply border border-borde;
+}
+.imagen {
+    @apply flex justify-center items-center p-5 h-32;
+}
+.imagen > img {
+    @apply h-full w-auto;
+}
+.details {
+    @apply p-5 h-28 relative;
+}
+
+.tooltip {
+    @apply hidden absolute;
+}
+.lista {
+    display: none;
+}
+.fecha {
+    @apply text-texto font-din1 text-lg;
+}
+.cargo {
+    @apply font-din1 text-xl mt-1;
+}
+.splide__pagination {
+    @apply bg-rojo;
+}
+@screen lg {
+    .imagen {
+        @apply h-44;
+    }
+    .imagen > img {
+        @apply h-auto w-full;
+    }
+    .tooltip {
+        @apply absolute top-3 right-6 flex justify-center items-center cursor-pointer;
+    }
+    .tooltip .info {
+        @apply border-2 flex justify-center items-center border-borde w-6 h-6 rounded-full text-gristransp font-bold font-din1  transition-all ease-linear duration-100;
+    }
+    .tooltip:hover .info {
+        @apply bg-rojo text-white border-rojo;
+    }
+    .lista {
+        bottom: 20px;
+        right: 10px;
+        @apply absolute flex flex-col invisible p-5 font-din1 text-sm font-semibold text-rojo pointer-events-none bg-white bg-opacity-95 border-2 border-borde rounded-lg rounded-br-none w-72;
+    }
+    .tooltip:hover .lista {
+        @apply visible;
+    }
+
+    .lista > li {
+        @apply list-disc text-xs font-din1 text-texto;
+    }
+}

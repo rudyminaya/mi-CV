@@ -1,30 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/splide.min.css'
 import IconoHabilidad from '../iconoHabilidad'
-import data from '../../../data/skills.json'
+import data from '../utils/skills.json'
 import styles from './carousel.module.css'
 
 const Carousel = () => {
-    const [iconoSeleccionado, setIconoSeleccionado] = useState(
-        styles.contentSlide
-    )
+    const [iconoSeleccionado, setIconoSeleccionado] = useState()
 
-    const [skillCheck, setSkillCheck] = useState('')
-    console.log(skillCheck)
-
+    useEffect(() => {}, [])
     return (
         <>
             <Splide
                 className={styles.contenedor}
                 options={{
                     type: 'loop',
-                    gap: '1rem',
                     pagination: false,
                     arrows: false,
                     perMove: 1,
-                    perPage: 6,
-                    interval: 2000,
+                    perPage: 5,
+                    interval: 4000,
                     autoplay: true,
                     breakpoints: {
                         500: {
@@ -33,25 +28,15 @@ const Carousel = () => {
                         720: {
                             perPage: 4,
                         },
-                        768: {
-                            perPage: 5,
-                        },
                     },
                 }}
             >
                 {data.map((e, i) => {
-                    let textIcon = e.text
                     return (
-                        <SplideSlide
-                            key={`skill${i}`}
-                            className={iconoSeleccionado}
-                            onClick={(a) => {
-                                setIconoSeleccionado(styles.contentSelect)
-                            }}
-                        >
-                            <figure className={styles.habilidad}>
+                        <SplideSlide key={`skill${i}`}>
+                            <button className={styles.contentSlide}>
                                 <IconoHabilidad icono={e.text} />
-                            </figure>
+                            </button>
                         </SplideSlide>
                     )
                 })}

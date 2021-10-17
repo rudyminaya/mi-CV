@@ -1,0 +1,100 @@
+[
+    {
+        "text": "h",
+        "icon": "html5",
+        "label": "HTML 5",
+        "description": "Maquetación eficiente empleando buenas prácticas, respetando el uso semántico de HTML para cumplir con lineamientos en la SEOptimización.",
+        "level": 6
+    },
+    {
+        "text": "c",
+        "icon": "css3",
+        "label": "CSS 3",
+        "description": "Creando estilos que cumplen con las especificaciones de los mockups para la web, excelente uso de flex-box y grid.",
+        "level": 6
+    },
+    {
+        "text": "j",
+        "icon": "javascript",
+        "label": "Javascript",
+        "description": "Profundos conocimientos en el lenguaje de programación que se encuentra dentro de los más usados en el mundo, haciendo uso de ECMAScript 6.",
+        "level": 5
+    },
+    {
+        "text": "r",
+        "icon": "react",
+        "label": "React JS",
+        "description": "Desarrollo componetizado a través de React JS para tener un proyecto más organizado.",
+        "level": 4
+    },
+    {
+        "text": "n",
+        "icon": "next",
+        "label": "Next JS",
+        "description": "Framework de React que nos facilita el Render Side Rendering logrando mejor compatibilidad con el SEO.",
+        "level": 4
+    },
+    {
+        "text": "g",
+        "icon": "git",
+        "label": "Git",
+        "description": "Manejo de proyectos en controladores de versiones facilitando el mantenimiento y organización de los proyectos.",
+        "level": 4
+    },
+    {
+        "text": "s",
+        "icon": "sass",
+        "label": "Sass",
+        "description": "El uso de preprocesadores para reducir el tiempo en el mantenimiento del CSS además de proporcionarnos la ventaja de utilizar variables y funciones.",
+        "level": 5
+    },
+    {
+        "text": "b",
+        "icon": "bootstrap",
+        "label": "Bootrstrap",
+        "description": "Manejo de uno de los frameworks de CSS más usados en el mundo con su sistema de grillas y componentes",
+        "level": 5
+    },
+    {
+        "text": "t",
+        "icon": "tailwind",
+        "label": "Tailwind",
+        "description": "Mi Framework de CSS favorito en proyectos con React por su versatilidad de estilizar el proyecto a través de clases que pueden ser completamente personalizadas.",
+        "level": 6
+    },
+    {
+        "text": "m",
+        "icon": "materialize",
+        "label": "Materialize",
+        "description": "Framework de CSS que permite el uso de diversos componentes, facilitando la maquetación y manejo de estilos.",
+        "level": 5
+    },
+    {
+        "text": "f",
+        "icon": "figma",
+        "label": "Figma",
+        "description": "Poderosa herramienta para el desarrollo de interfaces y manejo de prototipado, facilitando el desarrollo y maquetado de una web.",
+        "level": 4
+    },
+    {
+        "text": "w",
+        "icon": "wordpress",
+        "label": "Wordpress",
+        "description": "CMS más usado que facilita el desarrollo y mantenimiento de páginas web, gracias a su plataforma intuitiva.",
+        "level": 4
+    },
+    {
+        "text": "a",
+        "icon": "illustrator",
+        "label": "Adobe Illustrator",
+        "description": "Poderosa herramienta para el diseño de gráficas vectorizadas.",
+        "level": 5
+    },
+    {
+        "text": "p",
+        "icon": "photoshop",
+        "label": "Adobe Photoshop",
+        "description": "Excelente herramienta para la edición de fotos en alto nivel.",
+        "level": 4
+    }
+]

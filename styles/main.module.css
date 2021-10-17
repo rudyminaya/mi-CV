@@ -1,6 +1,7 @@
 .contenedor {
     @apply max-w-container w-semifull mx-auto border-l-2 border-borde;
 }
+
 @screen lg {
     .contenedor {
         @apply py-11;

@@ -1,0 +1,68 @@
+[
+    {
+        "entidad": "Banco Interamericano de Finanzas 'BanBif'",
+        "desde": "03/2021",
+        "hasta": "Actualidad",
+        "cargo": "Diseñador Web",
+        "imagen": "banbif",
+        "color": "#20a6ff",
+        "tareas": [
+            "Desarrollo web en HTML, CSS y JS",
+            "Uso de framework Bootstrap 3.0",
+            "Creación de páginas a través del CMS DNN",
+            "Maquetación de correos y organización a través de SalesForce"
+        ]
+    },
+    {
+        "entidad": "Invadion",
+        "desde": "02/2021",
+        "hasta": "03/2021",
+        "cargo": "Front-End Developer",
+        "imagen": "invadion",
+        "color": "#FFCF00",
+        "tareas": ["Desarrollo Web con next-create-app"]
+    },
+    {
+        "entidad": "Copstone Software Development",
+        "desde": "07/2020",
+        "hasta": "03/2021",
+        "cargo": "Freelance Front-End Developer",
+        "imagen": "copstone",
+        "color": "#43BAFF",
+        "tareas": [
+            "Desarrollo Web con React JS y Next JS",
+            "Empleo de preprocesadores como SASS",
+            "Uso de frameworks como Tailwind y Bootstrap",
+            "Diseño UI y prototipado en Figma",
+            "Consultoría para integración de Soluciones Digitales"
+        ]
+    },
+    {
+        "entidad": "Copstone Software Development",
+        "desde": "02/2014",
+        "hasta": "03/2021",
+        "cargo": "Especialista en Marketing Digital",
+        "imagen": "copstone",
+        "color": "#43BAFF",
+        "tareas": [
+            "Seguimiento de Proyectos, clientes y pagos",
+            "Archivar y Organizar documentos relacionados a bancos, proveedores y clientes",
+            "Apoyar en la planificación de proyectos y modificaciones de funcionamiento"
+        ]
+    },
+    {
+        "entidad": "Kahan Licores (ex Drokasa Licores)",
+        "desde": "09/2017",
+        "hasta": "08/2018",
+        "cargo": "Asistente Administrativo y Sistemas",
+        "imagen": "kl",
+        "color": "#fff",
+        "tareas": [
+            "Procesar las órdenes de compra en el sistema",
+            "Coordinar con el área de logística el envío de los productos",
+            "Medir las ventas mensuales según canal tradicional y/o moderno",
+            "Actualizar la base de datos del sistema SAP Business One",
+            "Confeccionar reportes mensuales y anuales"
+        ]
+    }
+]

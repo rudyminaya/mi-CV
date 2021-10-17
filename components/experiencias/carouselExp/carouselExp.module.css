@@ -1,0 +1,10 @@
+.slider {
+    @apply pb-10;
+}
+.slider > ul > li > button {
+    border-radius: 0;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg) !important;
+    @apply bg-rojo;
+}

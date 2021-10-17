@@ -12,18 +12,6 @@ const Habilidades = () => {
                 <Carousel />
             </div>
         </article>
-        /* {data.map((e, i) => {
-                        return (
-                            <SwiperSlide key={`skill${i}`}>
-                                <figure className={styles.habilidad}>
-                                    <IconoHabilidad
-                                        icono={e.text}
-                                        label={e.label}
-                                    />
-                                </figure>
-                            </SwiperSlide>
-                        )
-                    })} */
     )
 }
 
