@@ -45,6 +45,7 @@
 .redDiamond {
     @apply text-rojo !important;
 }
+/* screen lg */
 @screen lg {
     .details {
         @apply pt-10;
