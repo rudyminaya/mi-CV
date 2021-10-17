@@ -1,0 +1,18 @@
+.container {
+    @apply max-w-container w-semifull mx-auto pt-20 pb-10 border-l-2 border-borde;
+}
+.primario {
+    max-width: 200px;
+}
+.secundario {
+    max-width: 450px;
+    @apply mt-5;
+}
+.secundario > p {
+    @apply font-din1 text-texto;
+}
+@screen lg {
+    .container {
+        display: none;
+    }
+}

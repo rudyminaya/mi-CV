@@ -18,6 +18,9 @@ a {
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: #ece8e1;
+}
 
 @font-face {
     font-family: 'Tungsten';
@@ -29,5 +32,9 @@ a {
 }
 @font-face {
     font-family: 'DIN next W1G';
-    src: url(../fonts/DIN-next-W1G.otf);
+    src: url(../fonts/DIN-next-W1G.woff);
+}
+@font-face {
+    font-family: 'fontello';
+    src: url(../fonts/fontello.woff);
 }

@@ -1,4 +1,18 @@
 .contenedor {
     grid-template-columns: 10% 90%;
-    @apply grid w-36 mx-auto mt-10;
+    @apply grid w-36 mx-auto;
+}
+.titulo {
+    @apply text-center lg:text-left text-6xl leading-none uppercase font-tungsten;
+}
+@screen lg {
+    .contenedor {
+        @apply gap-x-3;
+    }
+    .contenedor > p {
+        @apply mt-2;
+    }
+    .titulo {
+        @apply text-8xl;
+    }
 }

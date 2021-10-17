@@ -1,0 +1,72 @@
+[
+    {
+        "text": "h",
+        "icon": "html5",
+        "label": "HTML 5"
+    },
+    {
+        "text": "c",
+        "icon": "css3",
+        "label": "CSS 3"
+    },
+    {
+        "text": "j",
+        "icon": "javascript",
+        "label": "Javascript"
+    },
+    {
+        "text": "r",
+        "icon": "react",
+        "label": "React JS"
+    },
+    {
+        "text": "n",
+        "icon": "next",
+        "label": "Next JS"
+    },
+    {
+        "text": "g",
+        "icon": "git",
+        "label": "Git"
+    },
+    {
+        "text": "s",
+        "icon": "sass",
+        "label": "Sass"
+    },
+    {
+        "text": "b",
+        "icon": "bootstrap",
+        "label": "Bootrstrap"
+    },
+    {
+        "text": "t",
+        "icon": "tailwind",
+        "label": "Tailwind"
+    },
+    {
+        "text": "m",
+        "icon": "materialize",
+        "label": "Materialize"
+    },
+    {
+        "text": "f",
+        "icon": "figma",
+        "label": "Figma"
+    },
+    {
+        "text": "w",
+        "icon": "wordpress",
+        "label": "Wordpress"
+    },
+    {
+        "text": "a",
+        "icon": "illustrator",
+        "label": "Adobe Illustrator"
+    },
+    {
+        "text": "p",
+        "icon": "photoshop",
+        "label": "Adobe Photoshop"
+    }
+]

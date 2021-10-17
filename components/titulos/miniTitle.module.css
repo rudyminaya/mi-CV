@@ -1,0 +1,3 @@
+.titulo {
+    @apply text-base font-din4 uppercase py-5;
+}

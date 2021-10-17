@@ -1,4 +1,52 @@
 .contenedor {
     height: 650px;
-    @apply bg-acero relative overflow-hidden;
+    background-image: url(/assets/bgmobile.svg);
+    @apply bg-acero relative bg-center bg-no-repeat;
+}
+.content {
+    @apply pt-10;
+}
+.content > img {
+    bottom: -50px;
+    width: auto;
+    height: 100%;
+    max-height: 500px;
+    @apply mx-auto relative z-10;
+}
+.resumen {
+    display: none;
+}
+@screen lg {
+    .contenedor {
+        background-image: url(/assets/bg.svg);
+    }
+    .content {
+        @apply grid grid-cols-3 items-center bg-center mx-auto pt-0 max-w-container w-semifull;
+    }
+    .content > img {
+        height: 100%;
+        width: auto;
+        max-height: 100%;
+        bottom: -100px;
+        @apply relative z-10;
+    }
+    .resumen {
+        @apply block text-white;
+    }
+    .principal {
+        max-width: 260px;
+        @apply flex items-start justify-start;
+    }
+    .principal > img {
+        @apply mt-5 ml-2;
+    }
+    .icono {
+        @apply inline;
+    }
+    .secundario {
+        @apply mt-5;
+    }
+    .secundario > p {
+        @apply font-din1 text-base text-justify;
+    }
 }

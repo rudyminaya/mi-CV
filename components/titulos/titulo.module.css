@@ -1,0 +1,3 @@
+.titulo {
+    @apply font-tungsten text-6xl uppercase py-3;
+}
