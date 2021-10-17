@@ -18,15 +18,21 @@ const Carousel = () => {
                     pagination: false,
                     arrows: false,
                     perMove: 1,
-                    perPage: 5,
+                    perPage: 6,
                     interval: 4000,
                     autoplay: true,
                     breakpoints: {
+                        420: {
+                            perPage: 2,
+                        },
                         500: {
                             perPage: 3,
                         },
                         720: {
                             perPage: 4,
+                        },
+                        900: {
+                            perPage: 5,
                         },
                     },
                 }}

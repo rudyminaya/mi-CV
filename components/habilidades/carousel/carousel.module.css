@@ -1,5 +1,4 @@
 .contenedor {
-    max-width: 730px;
     @apply my-5;
 }
 .contenedor::after {

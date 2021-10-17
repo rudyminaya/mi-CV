@@ -19,8 +19,8 @@ const CarouselExp = () => {
                 interval: 4000,
                 autoplay: true,
                 classes: {
-                    pagination: 'splide__pagination',
-                    page: 'splide__pagination__page',
+                    pagination: styles.dotContainer,
+                    page: styles.dots,
                 },
                 breakpoints: {
                     450: {
@@ -34,14 +34,7 @@ const CarouselExp = () => {
         >
             {data.map((e, i) => (
                 <SplideSlide key={`experiencia_nro_${i}`}>
-                    <ItemCarousel
-                        desde={e.desde}
-                        hasta={e.hasta}
-                        cargo={e.cargo}
-                        imagen={e.imagen}
-                        color={e.color}
-                        tareas={e.tareas}
-                    />
+                    <ItemCarousel {...e} />
                 </SplideSlide>
             ))}
         </Splide>

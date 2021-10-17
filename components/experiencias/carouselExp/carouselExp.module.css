@@ -1,10 +1,16 @@
 .slider {
-    @apply pb-10;
+    @apply my-5;
 }
 .slider > ul > li > button {
-    border-radius: 0;
-    width: 10px;
-    height: 10px;
-    transform: rotate(-45deg) !important;
+}
+.dotContainer {
+    @apply flex justify-center gap-3;
+}
+.dots {
+    transform: rotate(45deg) skew(10deg, 10deg) !important;
+    @apply bg-gristransp rounded-none w-3 h-3 mt-4
+        transition-all ease-linear duration-150;
+}
+.dots[aria-current] {
     @apply bg-rojo;
 }

@@ -1,0 +1,36 @@
+.contenedorPrincipal {
+    max-width: 400px;
+    height: 300px;
+    max-height: 300px;
+    @apply overflow-hidden relative border border-borde mx-auto w-full mt-10;
+}
+.mainDetails {
+    height: 300px;
+    @apply flex flex-col items-center justify-between p-5;
+}
+.entidad {
+    @apply font-tungsten  text-4xl text-center;
+}
+.contenedorModal {
+    max-width: 400px;
+    height: 300px;
+    bottom: -101%;
+    transition: all linear 150ms;
+    background: rgba(255, 70, 85, 0.9);
+    @apply absolute w-full p-5 flex flex-col justify-between;
+}
+.contenedorModal p {
+    @apply pointer-events-none;
+}
+.entidadModal {
+    @apply font-tungsten text-white text-4xl text-center;
+}
+.contenedorPrincipal:hover .contenedorModal {
+    bottom: 0;
+}
+.details {
+    @apply pb-5;
+}
+.details p {
+    @apply text-white font-din1 flex justify-between pr-10;
+}

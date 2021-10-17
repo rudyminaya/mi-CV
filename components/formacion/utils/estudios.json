@@ -1,0 +1,23 @@
+[
+    {
+        "entidad": "Universidad Privada de Ciencias Aplicadas UPC",
+        "logo": "upc",
+        "grado": "Estudiante",
+        "tiempo": "2017 - Actualidad",
+        "carrera": "Ing. de Sistemas"
+    },
+    {
+        "entidad": "IDAT",
+        "logo": "idat",
+        "grado": "egresado",
+        "tiempo": "2012-2014",
+        "carrera": "Administración"
+    },
+    {
+        "entidad": "Wall Street English",
+        "logo": "wse",
+        "grado": "Estudiante",
+        "tiempo": "2021 - Actualidad",
+        "carrera": "Inglés"
+    }
+]

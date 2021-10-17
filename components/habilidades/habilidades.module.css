@@ -2,8 +2,4 @@
     .content > div {
         @apply pt-40 relative;
     }
-    .content > div:after {
-        content: '';
-        @apply border-r-2 border-borde w-9/12 mr-auto absolute top-0 right-60 z-10 h-full pointer-events-none;
-    }
 }
