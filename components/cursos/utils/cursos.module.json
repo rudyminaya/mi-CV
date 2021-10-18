@@ -1,0 +1,83 @@
+[
+    {
+        "institucion": "Wall Street English",
+        "logo": "wse",
+        "periodo": "2021 - Actualidad",
+        "curso": "Inglés",
+        "horas": "",
+        "certificado": "",
+        "imagen": "ingles"
+    },
+    {
+        "institucion": "Platzi",
+        "logo": "platzi",
+        "periodo": "Agosto 2021",
+        "curso": "Maquetación en CSS",
+        "horas": "19",
+        "certificado": "https://certificados-rudy.s3.amazonaws.com/diploma-practico-css.pdf",
+        "imagen": "maquetacion"
+    },
+    {
+        "institucion": "Platzi",
+        "logo": "platzi",
+        "periodo": "Febrero 2021",
+        "curso": "Carrera de Javascript",
+        "horas": "",
+        "certificado": "https://certificados-rudy.s3.amazonaws.com/diploma-escuela-javascript.pdf",
+        "imagen": "carrerajs"
+    },
+    {
+        "institucion": "Platzi",
+        "logo": "platzi",
+        "periodo": "Febrero 2021",
+        "curso": "Curso de HTML y CSS",
+        "horas": "18",
+        "certificado": "https://certificados-rudy.s3.amazonaws.com/diploma-html-css-2019.pdf",
+        "imagen": "htmlcss"
+    },
+    {
+        "institucion": "Platzi",
+        "logo": "platzi",
+        "periodo": "Diciembre 2020",
+        "curso": "Curso Definitivo de HTML y CSS",
+        "horas": "23",
+        "certificado": "https://certificados-rudy.s3.amazonaws.com/diploma-html-css.pdf",
+        "imagen": "defhtmlcss"
+    },
+    {
+        "institucion": "Platzi",
+        "logo": "platzi",
+        "periodo": "Diciembre 2021",
+        "curso": "Cruso Práctico de HTML y CSS",
+        "horas": "16",
+        "certificado": "https://certificados-rudy.s3.amazonaws.com/diploma-html-practico.pdf",
+        "imagen": "practicohtmlcss"
+    },
+    {
+        "institucion": "Platzi",
+        "logo": "platzi",
+        "periodo": "Diciembre 2020",
+        "curso": "Curso Básico de Javascript",
+        "horas": "12",
+        "certificado": "https://certificados-rudy.s3.amazonaws.com/diploma-basico-javascript.pdf",
+        "imagen": "basicojs"
+    },
+    {
+        "institucion": "Universidad Privada San Martín de Porres",
+        "logo": "usmp",
+        "periodo": "Set 2019 - Oct 2019",
+        "curso": "Marketing Digital",
+        "horas": "48",
+        "certificado": "https://certificados-rudy.s3.amazonaws.com/USMP+Extensi%7Bon+Marketing+Digital.jpg",
+        "imagen": "mkt"
+    },
+    {
+        "institucion": "Platzi",
+        "logo": "platzi",
+        "periodo": "Junio 2019",
+        "curso": "Creación y Optimización de Websites con Worpdress",
+        "horas": "48",
+        "certificado": "https://certificados-rudy.s3.amazonaws.com/diploma-seo-wordpress.pdf",
+        "imagen": "wordpress"
+    }
+]

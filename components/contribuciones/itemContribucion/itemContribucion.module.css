@@ -1,0 +1,10 @@
+.item {
+    max-width: 350px;
+    @apply border border-rojo p-5 w-full mx-auto;
+}
+.item h4 {
+    @apply text-rojo font-tungsten text-center text-3xl mb-5;
+}
+.item p {
+    @apply text-acero font-din1 text-center;
+}

@@ -2,8 +2,9 @@
     max-width: 400px;
     height: 300px;
     max-height: 300px;
-    @apply overflow-hidden relative border border-borde mx-auto w-full mt-10;
+    @apply overflow-hidden relative border border-borde mx-auto w-full;
 }
+
 .mainDetails {
     height: 300px;
     @apply flex flex-col items-center justify-between p-5;
@@ -14,8 +15,9 @@
 .contenedorModal {
     max-width: 400px;
     height: 300px;
-    bottom: -101%;
-    transition: all linear 150ms;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
     background: rgba(255, 70, 85, 0.9);
     @apply absolute w-full p-5 flex flex-col justify-between;
 }
@@ -25,12 +27,20 @@
 .entidadModal {
     @apply font-tungsten text-white text-4xl text-center;
 }
-.contenedorPrincipal:hover .contenedorModal {
-    bottom: 0;
-}
+
 .details {
-    @apply pb-5;
+    @apply pb-10;
 }
 .details p {
     @apply text-white font-din1 flex justify-between pr-10;
+}
+@screen lg {
+    .contenedorModal {
+        left: -121%;
+        transform: skew(-20deg);
+    }
+    .contenedorPrincipal:hover .contenedorModal {
+        left: 0;
+        transform: skew(0deg);
+    }
 }
