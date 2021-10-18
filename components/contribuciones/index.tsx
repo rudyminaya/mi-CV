@@ -9,7 +9,7 @@ interface Props {}
 
 const Contribuciones = (props: Props) => {
     return (
-        <section className={main.contenedor}>
+        <section id="contribuciones" className={main.contenedor}>
             <Titulo titulo="Contribuciones Sociales" />
             <div className={styles.contribuciones}>
                 {data.map((e, i) => {

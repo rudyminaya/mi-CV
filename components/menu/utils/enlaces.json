@@ -1,0 +1,22 @@
+[
+    {
+        "item": "Habilidades",
+        "enlace": "habilidades"
+    },
+    {
+        "item": "Experiencias",
+        "enlace": "experiencias"
+    },
+    {
+        "item": "Estudios",
+        "enlace": "estudios"
+    },
+    {
+        "item": "Contribución Social",
+        "enlace": "contribuciones"
+    },
+    {
+        "item": "Contacto",
+        "enlace": "contacto"
+    }
+]

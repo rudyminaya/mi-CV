@@ -26,6 +26,7 @@
 .splide__pagination {
     @apply bg-rojo;
 }
+
 @screen lg {
     .imagen {
         @apply h-44;
@@ -36,11 +37,12 @@
     .tooltip {
         @apply absolute top-3 right-6 flex justify-center items-center cursor-pointer;
     }
+
     .tooltip .info {
-        @apply border-2 flex justify-center items-center border-borde w-6 h-6 rounded-full text-gristransp font-bold font-din1  transition-all ease-linear duration-100;
+        @apply flex justify-center items-center bg-rojo w-6 h-6 rounded-full text-white font-bold font-din1  transition-all ease-linear duration-100;
     }
     .tooltip:hover .info {
-        @apply bg-rojo text-white border-rojo;
+        @apply bg-acero text-white;
     }
     .lista {
         bottom: 20px;

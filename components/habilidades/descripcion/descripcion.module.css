@@ -1,0 +1,45 @@
+.details {
+    max-width: 730px;
+    @apply flex flex-col-reverse items-center gap-y-5 pb-10;
+}
+.description > p:first-child {
+    @apply text-2xl font-din4;
+}
+.description > p:last-child {
+    @apply text-gristransp font-medium font-din1;
+}
+.level {
+    @apply h-full flex flex-col items-center;
+}
+.level > p:first-child {
+    @apply text-2xl font-din4 uppercase text-center;
+}
+
+.diamond,
+.redDiamond {
+    transform: rotate(45deg) skew(10deg, 10deg);
+    @apply w-4 h-4 mx-1.5 inline-block;
+}
+.skill {
+    @apply mt-3;
+}
+.diamond {
+    @apply bg-gristransp;
+}
+.redDiamond {
+    @apply bg-rojo;
+}
+
+@screen md {
+    .details {
+        @apply grid grid-cols-2 gap-y-0 gap-x-10;
+    }
+}
+@screen lg {
+    .details {
+        @apply pt-10;
+    }
+    .description {
+        @apply pl-10;
+    }
+}

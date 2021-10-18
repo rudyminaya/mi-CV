@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from 'react'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/splide.min.css'
 import IconoHabilidad from '../iconoHabilidad'
-import data from '../utils/skills.json'
+import { Skill, skills } from '../utils/skills'
 import styles from './carousel.module.css'
+import Descripcion from '../descripcion'
+import { useState } from 'react'
 
 const Carousel = () => {
-    const [iconoSeleccionado, setIconoSeleccionado] = useState()
-
-    useEffect(() => {}, [])
+    const [clickWatch, setClickWatch] = useState<Skill>(skills[0])
     return (
         <>
             <Splide
@@ -21,6 +20,7 @@ const Carousel = () => {
                     perPage: 6,
                     interval: 4000,
                     autoplay: true,
+                    gap: '5rem',
                     breakpoints: {
                         420: {
                             perPage: 2,
@@ -37,37 +37,25 @@ const Carousel = () => {
                     },
                 }}
             >
-                {data.map((e, i) => {
+                {skills.map((e, i) => {
                     return (
                         <SplideSlide key={`skill${i}`}>
-                            <button className={styles.contentSlide}>
-                                <IconoHabilidad icono={e.text} />
-                            </button>
+                            <IconoHabilidad
+                                onClick={() => {
+                                    setClickWatch(e)
+                                }}
+                                icono={e.text}
+                            />
                         </SplideSlide>
                     )
                 })}
             </Splide>
-            <div className={styles.details}>
-                <div className={styles.description}>
-                    <p>- HTML 5</p>
-                    <p>
-                        Maquetación eficiente, empleando buenas prácticas al
-                        momento de asignar tags y atributos.
-                    </p>
-                </div>
-                <div className={styles.level}>
-                    <p>Skill Level</p>
-                    <p className={styles.skills}>
-                        <span className={styles.redDiamond}>⧫</span>
-                        <span className={styles.redDiamond}>⧫</span>
-                        <span className={styles.redDiamond}>⧫</span>
-                        <span className={styles.redDiamond}>⧫</span>
-                        <span>⧫</span>
-                        <span>⧫</span>
-                        <span>⧫</span>
-                    </p>
-                </div>
-            </div>
+
+            <Descripcion
+                description={clickWatch.description}
+                skill={clickWatch.skill}
+                level={clickWatch.level}
+            />
         </>
     )
 }

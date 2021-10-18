@@ -1,0 +1,23 @@
+.contenedor {
+    @apply flex justify-center items-center p-5 border-black border-2 bg-carton z-10 cursor-pointer transition-all ease-linear duration-100;
+}
+.contenedor:hover {
+    @apply text-white bg-rojo border-rojo;
+}
+.contenedor::after {
+    content: '';
+    z-index: -1;
+    @apply w-full h-3 border-t-4 border-borde absolute top-1/2 pointer-events-none;
+}
+.iconoText {
+    @apply font-fontello text-7xl;
+}
+.seleccionado {
+    @apply p-5 flex justify-center items-center text-white bg-rojo border-2 border-rojo z-10 cursor-pointer transition-all ease-linear duration-100;
+}
+.contenedor:focus {
+    @apply seleccionado;
+}
+.contenedor:active {
+    @apply seleccionado;
+}

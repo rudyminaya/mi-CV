@@ -5,7 +5,7 @@ import CarouselExp from './carouselExp'
 
 const Experiencias = () => {
     return (
-        <section className={main.contenedor}>
+        <section id="experiencias" className={main.contenedor}>
             <Titulo titulo="ÚLTIMAS EXPERIENCIAS" />
             <CarouselExp />
         </section>

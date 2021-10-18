@@ -7,7 +7,7 @@ import styles from './formacion.module.css'
 
 const Formacion = () => {
     return (
-        <section className={main.contenedor}>
+        <section id="estudios" className={main.contenedor}>
             <Titulo titulo="Formación Académica" />
             <div className={styles.estudios}>
                 {data.map((e, i) => {

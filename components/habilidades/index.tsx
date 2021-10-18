@@ -6,7 +6,7 @@ import Carousel from './carousel'
 
 const Habilidades = () => {
     return (
-        <article className={styles.content}>
+        <article id="habilidades" className={styles.content}>
             <div className={main.contenedor}>
                 <Titulo titulo="Principales Habilidades" />
                 <Carousel />

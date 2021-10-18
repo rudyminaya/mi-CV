@@ -8,7 +8,7 @@ interface Props {}
 
 const Footer = (props: Props) => {
     return (
-        <footer className={styles.footer}>
+        <footer id="contacto" className={styles.footer}>
             <div className={styles.contenedor}>
                 <Titulo titulo="Rudy Minaya" />
                 <div className={styles.elements}>
