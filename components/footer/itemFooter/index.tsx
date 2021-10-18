@@ -19,11 +19,12 @@ const ItemFooter = (props: Props) => {
                 {newData.map((e, i) => {
                     return (
                         <a
+                            key={i}
                             className={styles.icono}
                             href={e.link}
                             target="_blank"
                         >
-                            <img key={i} src={`/assets/social/${e.red}.png`} />
+                            <img src={`/assets/social/${e.red}.png`} />
                         </a>
                     )
                 })}

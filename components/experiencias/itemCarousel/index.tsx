@@ -7,7 +7,7 @@ interface Props {
     hasta: string
     cargo: string
     color: string
-    tareas: Array
+    tareas: []
 }
 
 const ItemCarousel = (props: Props) => {
