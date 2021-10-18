@@ -1,5 +1,5 @@
 .contenedor {
-    @apply max-w-container w-semifull mx-auto border-l-2 border-borde;
+    @apply max-w-container w-semifull mx-auto;
 }
 
 @screen lg {
