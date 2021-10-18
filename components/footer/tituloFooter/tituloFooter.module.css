@@ -1,0 +1,8 @@
+.titulo {
+    @apply font-din1 font-semibold text-rojo text-lg mb-5 text-center;
+}
+@screen md {
+    .titulo {
+        @apply text-left;
+    }
+}

@@ -1,0 +1,22 @@
+.footer {
+    @apply bg-black pb-10;
+}
+.footer h2 {
+    @apply text-white text-center;
+}
+.contenedor {
+    @apply max-w-container w-semifull mx-auto pt-16 pb-10;
+}
+@screen lg {
+    .footer h2 {
+        @apply text-left;
+    }
+}
+.elements {
+    @apply flex flex-col items-center gap-10;
+}
+@screen md {
+    .elements {
+        @apply grid grid-cols-3 items-start;
+    }
+}

@@ -1,0 +1,45 @@
+[
+    {
+        "titulo": "Redes Sociales",
+        "redes": [
+            {
+                "red": "facebook",
+                "link": "https://www.facebook.com/minaya.rc/"
+            },
+            {
+                "red": "instagram",
+                "link": "https://www.instagram.com/rudyminaya/"
+            },
+            {
+                "red": "linkedIn",
+                "link": "https://www.linkedin.com/in/rudyminaya/"
+            }
+        ]
+    },
+    {
+        "titulo": "Repositorios",
+        "redes": [
+            {
+                "red": "github",
+                "link": "https://github.com/rudyminaya"
+            },
+            {
+                "red": "gitlab",
+                "link": "https://gitlab.com/Rudyminaya"
+            }
+        ]
+    },
+    {
+        "titulo": "Contacto",
+        "redes": [
+            {
+                "red": "whatsapp",
+                "link": "https://api.whatsapp.com/send/?phone=%2B51935386128"
+            },
+            {
+                "red": "email",
+                "link": "mailto:minaya.rc@gmail.com"
+            }
+        ]
+    }
+]

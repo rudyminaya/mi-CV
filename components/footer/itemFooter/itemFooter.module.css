@@ -1,0 +1,10 @@
+.iconos {
+    @apply flex gap-5;
+}
+.icono {
+    transform: scale(1);
+    transition: transform linear 150ms;
+}
+.icono:hover {
+    transform: scale(1.2);
+}
