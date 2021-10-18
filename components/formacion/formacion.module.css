@@ -2,5 +2,5 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     gap: 2.5rem;
-    @apply mt-10;
+    @apply mt-10 pb-10 lg:pb-0;
 }

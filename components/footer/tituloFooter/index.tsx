@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './tituloFooter.module.css'
 
 interface Props {
-    titulo: String
+    titulo: string
 }
 
 const TituloFooter = (props: Props) => {

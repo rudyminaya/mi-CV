@@ -2,12 +2,12 @@ import React from 'react'
 import styles from './itemCurso.module.css'
 
 interface Props {
-    certificado: String
-    imagen: String
-    curso: String
-    periodo: String
-    institucion: String
-    horas: String
+    certificado: string
+    imagen: string
+    curso: string
+    periodo: string
+    institucion: string
+    horas: string
 }
 
 const ItemCurso = (props: Props) => {

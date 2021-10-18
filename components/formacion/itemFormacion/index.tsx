@@ -2,11 +2,11 @@ import React from 'react'
 import styles from './itemFormacion.module.css'
 
 interface Props {
-    entidad: String
-    logo: String
-    grado: String
-    tiempo: String
-    carrera: String
+    entidad: string
+    logo: string
+    grado: string
+    tiempo: string
+    carrera: string
 }
 
 const ItemFormacion = (props: Props) => {

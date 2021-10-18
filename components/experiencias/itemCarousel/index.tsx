@@ -2,11 +2,11 @@ import React from 'react'
 import styles from './itemCarousel.module.css'
 
 interface Props {
-    imagen: String
-    desde: String
-    hasta: String
-    cargo: String
-    color: String
+    imagen: string
+    desde: string
+    hasta: string
+    cargo: string
+    color: string
     tareas: Array
 }
 

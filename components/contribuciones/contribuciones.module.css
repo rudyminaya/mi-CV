@@ -1,3 +1,8 @@
 .contribuciones {
-    @apply flex flex-wrap mt-10;
+    @apply flex flex-wrap mt-10 gap-10 pb-10;
+}
+@screen lg {
+    .contribuciones {
+        @apply pb-0;
+    }
 }

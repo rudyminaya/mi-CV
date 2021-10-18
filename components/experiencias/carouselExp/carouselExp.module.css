@@ -1,5 +1,5 @@
 .slider {
-    @apply my-5;
+    @apply py-5;
 }
 .slider > ul > li > button {
 }

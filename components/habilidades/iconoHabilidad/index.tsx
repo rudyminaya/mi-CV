@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../habilidades.module.css'
 import icon from './icons.module.css'
 interface Props {
-    icono: String
+    icono: string
 }
 
 const IconoHabilidad = (props: Props) => {

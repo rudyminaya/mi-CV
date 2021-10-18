@@ -4,10 +4,10 @@ import TituloFooter from '../tituloFooter'
 import styles from './itemFooter.module.css'
 
 interface Props {
-    titulo: String
+    titulo: string
     redes: []
-    red: String
-    link: String
+    red: string
+    link: string
 }
 
 const ItemFooter = (props: Props) => {

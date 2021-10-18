@@ -2,8 +2,8 @@ import React from 'react'
 import styles from './itemContribucion.module.css'
 
 interface Props {
-    nombre: String
-    parrafo: String
+    nombre: string
+    parrafo: string
 }
 
 const ItemContribucion = (props: Props) => {
