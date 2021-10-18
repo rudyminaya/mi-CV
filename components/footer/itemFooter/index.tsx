@@ -11,8 +11,6 @@ interface Red {
 interface Props {
     titulo: string
     redes: Red[]
-    red: string
-    link: string
 }
 
 const ItemFooter = (props: Props) => {
@@ -26,7 +24,7 @@ const ItemFooter = (props: Props) => {
                         <a
                             key={i}
                             className={styles.icono}
-                            href={`${e.link}`}
+                            href={e.link}
                             target="_blank"
                         >
                             <img src={`/assets/social/${e.red}.png`} />
