@@ -3,9 +3,14 @@ import { Url } from 'url'
 import TituloFooter from '../tituloFooter'
 import styles from './itemFooter.module.css'
 
+interface Red {
+    red: string
+    link: string
+}
+
 interface Props {
     titulo: string
-    redes: []
+    redes: Red[]
     red: string
     link: string
 }
@@ -21,7 +26,7 @@ const ItemFooter = (props: Props) => {
                         <a
                             key={i}
                             className={styles.icono}
-                            href={e.link}
+                            href={`${e.link}`}
                             target="_blank"
                         >
                             <img src={`/assets/social/${e.red}.png`} />
