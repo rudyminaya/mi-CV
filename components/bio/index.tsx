@@ -3,8 +3,6 @@ import styles from './bio.module.css'
 import MiniTitle from '../titulos/minititle'
 import Titulo from '../titulos/titulo'
 
-interface Props {}
-
 const Bio = () => {
     return (
         <div className={styles.container}>

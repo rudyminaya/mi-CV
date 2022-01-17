@@ -5,9 +5,7 @@ import styles from './contribuciones.module.css'
 import ItemContribucion from './itemContribucion'
 import data from './utils/contribuciones.json'
 
-interface Props {}
-
-const Contribuciones = (props: Props) => {
+const Contribuciones = () => {
     return (
         <section id="contribuciones" className={main.contenedor}>
             <Titulo titulo="Contribuciones Sociales" />
