@@ -5,9 +5,7 @@ import styles from './cursos.module.css'
 import data from './utils/cursos.module.json'
 import ItemCurso from './itemCurso'
 
-interface Props {}
-
-const Cursos = (props: Props) => {
+const Cursos = () => {
     return (
         <section className={main.contenedor}>
             <Titulo titulo="Cursos y Extensiones" />

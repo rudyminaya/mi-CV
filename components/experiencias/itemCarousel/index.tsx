@@ -3,11 +3,11 @@ import styles from './itemCarousel.module.css'
 
 interface Props {
     imagen: string
-    desde: string
-    hasta: string
+    desde?: string
+    hasta?: string
     cargo: string
     color: string
-    tareas: string[]
+    tareas?: string[]
 }
 
 const ItemCarousel = (props: Props) => {
@@ -17,22 +17,26 @@ const ItemCarousel = (props: Props) => {
     return (
         <div className={styles.item}>
             <figure className={styles.imagen} style={divStyle}>
-                <img src={`/assets/exp/${props.imagen}.png`} />
+                <img src={`/assets/carousel/${props.imagen}.png`} />
             </figure>
             <div className={styles.details}>
-                <p className={styles.fecha}>
-                    {props.desde} - {props.hasta}
-                </p>
+                {props.desde && props.hasta && (
+                    <p className={styles.fecha}>
+                        {props.desde} - {props.hasta}
+                    </p>
+                )}
                 <p className={styles.cargo}>{props.cargo}</p>
-                <div className={styles.tooltip}>
-                    <p className={styles.info}>i</p>
-                    <ul className={styles.lista}>
-                        Funciones:
-                        {props.tareas.map((e, i) => {
-                            return <li key={i}>{e}</li>
-                        })}
-                    </ul>
-                </div>
+                {props.tareas && (
+                    <div className={styles.tooltip}>
+                        <p className={styles.info}>i</p>
+                        <ul className={styles.lista}>
+                            Funciones:
+                            {props.tareas.map((e, i) => {
+                                return <li key={i}>{e}</li>
+                            })}
+                        </ul>
+                    </div>
+                )}
             </div>
         </div>
     )

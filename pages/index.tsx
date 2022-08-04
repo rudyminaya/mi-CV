@@ -6,6 +6,7 @@ import Experiencias from '../components/experiencias'
 import Formacion from '../components/formacion'
 import Cursos from '../components/cursos'
 import Contribuciones from '../components/contribuciones'
+import Portfolio from '../components/portfolio'
 
 
 const Index = () => {
@@ -25,6 +26,7 @@ const Index = () => {
             <Bio bio={bio} />
             <Habilidades />
             <Experiencias />
+            <Portfolio/>
             <Formacion />
             <Cursos />
             <Contribuciones />
