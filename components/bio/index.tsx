@@ -3,7 +3,11 @@ import styles from './bio.module.css'
 import MiniTitle from '../titulos/minititle'
 import Titulo from '../titulos/titulo'
 
-const Bio = () => {
+interface Props {
+    bio: string
+}
+
+const Bio = (props: Props) => {
     return (
         <div className={styles.container}>
             <div className={styles.primario}>
@@ -12,14 +16,7 @@ const Bio = () => {
             </div>
             <div className={styles.secundario}>
                 <MiniTitle titulo="Biografía" />
-                <p>
-                    Peruano apasionado por la tecnología y el desarrollo de
-                    soluciones digitales. En la actualidad desarrolla
-                    habilidades para el front-end development haciendo uso de
-                    los increíbles poderes que le ofrecen HTML, CSS, JS, quienes
-                    a su vez se aprovechan de librerías como React, NextJS y
-                    Tailwind para el mejor desempeño de cualquier proyecto.
-                </p>
+                <p>{props.bio}</p>
             </div>
         </div>
     )

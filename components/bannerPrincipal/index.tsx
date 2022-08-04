@@ -4,9 +4,11 @@ import Nombre from './nombre'
 import Minititle from '../titulos/minititle'
 import Titulo from '../titulos/titulo'
 
-interface Props {}
+interface Props {
+    bio: string
+}
 
-const BannerPrincipal = () => {
+const BannerPrincipal = (props: Props) => {
     return (
         <main className={styles.contenedor}>
             <div className={styles.content}>
@@ -23,15 +25,7 @@ const BannerPrincipal = () => {
                     </div>
                     <div className={styles.secundario}>
                         <Minititle titulo="Biografía" />
-                        <p>
-                            Peruano apasionado por la tecnología y el desarrollo
-                            de soluciones digitales. En la actualidad desarrolla
-                            habilidades para el front-end development haciendo
-                            uso de los increíbles poderes que le ofrecen HTML,
-                            CSS, JS, quienes a su vez se aprovechan de librerías
-                            como React, NextJS y Tailwind para el mejor
-                            desempeño de cualquier proyecto.
-                        </p>
+                        <p>{props.bio}</p>
                     </div>
                 </div>
             </div>

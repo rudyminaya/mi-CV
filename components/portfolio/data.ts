@@ -7,6 +7,12 @@ interface Data {
 
 export const PortafolioData: Data[] = [
     {
+        id: 'kvalita',
+        image: 'kvalita',
+        name: 'Kvalita',
+        link: 'https://kvalita.nl/compliance',
+    },
+    {
         id: 'fosso',
         image: 'fosso',
         name: 'Fosso',
