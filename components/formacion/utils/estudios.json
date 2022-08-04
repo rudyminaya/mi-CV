@@ -9,14 +9,14 @@
     {
         "entidad": "ACAMICA",
         "logo": "acamica",
-        "grado": "Estudiante",
-        "tiempo": "2021 - Actualidad",
-        "carrera": "Front-end Developer"
+        "grado": "Egresado",
+        "tiempo": "2021 - 2022",
+        "carrera": "Frontend Developer"
     },
     {
         "entidad": "IDAT",
         "logo": "idat",
-        "grado": "egresado",
+        "grado": "Egresado",
         "tiempo": "2012-2014",
         "carrera": "Administración"
     }

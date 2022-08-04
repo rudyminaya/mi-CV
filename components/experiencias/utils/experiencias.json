@@ -1,8 +1,23 @@
 [
     {
+        "entidad": "Zoluxiones",
+        "desde": "02/2021",
+        "hasta": "Actualidad",
+        "cargo": "Frontend Developer Sr",
+        "imagen": "zoluxiones",
+        "color": "#ef3340",
+        "tareas": [
+            "Proyecto: Ahorro Inversión",
+            "Desarrollo del aplicativo Journey Vida según normativa de la SBS",
+            "Desarrollo del aplicativo Journey Inversión según normativa de la SBS",
+            "Mantenimiento y refactorización del proyecto Journey Vida y Journey Inversión",
+            "Tecnologías: React JS | Jenkins | AWS | Typescript | Jest | Testing Library"
+        ]
+    },
+    {
         "entidad": "Banco Interamericano de Finanzas 'BanBif'",
         "desde": "03/2021",
-        "hasta": "Actualidad",
+        "hasta": "12/2021",
         "cargo": "Diseñador Web",
         "imagen": "banbif",
         "color": "#20a6ff",
@@ -17,7 +32,7 @@
         "entidad": "Invadion",
         "desde": "02/2021",
         "hasta": "03/2021",
-        "cargo": "Front-End Developer",
+        "cargo": "Frontend Developer",
         "imagen": "invadion",
         "color": "#FFCF00",
         "tareas": ["Desarrollo Web con next-create-app"]
@@ -26,7 +41,7 @@
         "entidad": "Copstone Software Development",
         "desde": "07/2020",
         "hasta": "03/2021",
-        "cargo": "Freelance Front-End Developer",
+        "cargo": "Freelance Frontend Developer",
         "imagen": "copstone",
         "color": "#43BAFF",
         "tareas": [

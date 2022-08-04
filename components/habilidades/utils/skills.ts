@@ -12,7 +12,7 @@ export const skills: Skill[] = [
         skill: 'HTML 5',
         description:
             'Maquetación eficiente empleando buenas prácticas, respetando el uso semántico de HTML para cumplir con lineamientos en la SEOptimización.',
-        level: 6,
+        level: 7,
     },
     {
         text: 'c',
@@ -20,7 +20,7 @@ export const skills: Skill[] = [
         skill: 'CSS 3',
         description:
             'Creando estilos que cumplen con las especificaciones de los mockups para la web, excelente uso de flex-box y grid.',
-        level: 6,
+        level: 7,
     },
     {
         text: 'j',
@@ -28,7 +28,7 @@ export const skills: Skill[] = [
         skill: 'Javascript',
         description:
             'Profundos conocimientos en el lenguaje de programación que se encuentra dentro de los más usados en el mundo, haciendo uso de ECMAScript 6.',
-        level: 5,
+        level: 6,
     },
     {
         text: 'r',
@@ -36,7 +36,7 @@ export const skills: Skill[] = [
         skill: 'React JS',
         description:
             'Desarrollo componetizado a través de React JS para tener un proyecto más organizado.',
-        level: 3,
+        level: 6,
     },
     {
         text: 'n',
@@ -44,7 +44,7 @@ export const skills: Skill[] = [
         skill: 'Next JS',
         description:
             'Framework de React que nos facilita el Render Side Rendering logrando mejor compatibilidad con el SEO.',
-        level: 4,
+        level: 6,
     },
     {
         text: 'g',
@@ -52,7 +52,7 @@ export const skills: Skill[] = [
         skill: 'Git',
         description:
             'Manejo de proyectos en controladores de versiones facilitando el mantenimiento y organización de los proyectos.',
-        level: 4,
+        level: 6,
     },
     {
         text: 's',
@@ -92,7 +92,7 @@ export const skills: Skill[] = [
         skill: 'Figma',
         description:
             'Poderosa herramienta para el desarrollo de interfaces y manejo de prototipado, facilitando el desarrollo y maquetado de una web.',
-        level: 5,
+        level: 6,
     },
     {
         text: 'w',
@@ -100,7 +100,7 @@ export const skills: Skill[] = [
         skill: 'Wordpress',
         description:
             'CMS más usado que facilita el desarrollo y mantenimiento de páginas web, gracias a su plataforma intuitiva.',
-        level: 3,
+        level: 5,
     },
     {
         text: 'a',
