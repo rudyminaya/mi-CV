@@ -1,8 +1,22 @@
 [
     {
+        "entidad": "Infocasas",
+        "desde": "10/2022",
+        "hasta": "Actualidad",
+        "cargo": "Frontend Developer",
+        "imagen": "infocasas",
+        "color": "#ffffff",
+        "tareas": [
+            "Mantenimiento en el aplicativo Infocasas PE | UY | PY | BO",
+            "Mantenimiento en el sitio web de Infocasas",
+            "Maquetación y creación de portales para clientes del grupo Infocasas",
+            "Tecnologías: React JS | Next JS | AWS | Typescript | MYSQL | Prisma JS | React Native | MUI | Ant Design"
+        ]
+    },
+    {
         "entidad": "Zoluxiones",
         "desde": "02/2022",
-        "hasta": "Actualidad",
+        "hasta": "10/2022",
         "cargo": "Frontend Developer Sr",
         "imagen": "zoluxiones",
         "color": "#ef3340",
